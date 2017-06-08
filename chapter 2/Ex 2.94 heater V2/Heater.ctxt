@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Heater
+comment0.text=\r\n\ The\ heater\ can\ heat\ or\ cool\ the\ rooms\ temprature\r\n
+comment1.params=maxTemp\ minTemp
+comment1.target=Heater(double,\ double)
+comment1.text=\r\n\ Please\ enter\ a\ maxium\ and\ minimium\ temprature\r\n
+comment2.params=newIncrement
+comment2.target=void\ newIncrement(double)
+comment3.params=
+comment3.target=void\ warmer()
+comment4.params=
+comment4.target=void\ cooler()
+comment5.params=
+comment5.target=double\ viewTemp()
+numComments=6

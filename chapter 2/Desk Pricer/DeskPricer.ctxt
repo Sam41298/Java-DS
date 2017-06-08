@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=DeskPricer
+comment0.text=\r\n\ This\ Class\ is\ used\ calculate\ the\ price\ of\ a\ custom\ desk\r\n\ and\ Store\ order/customer\ infomation\r\n\r\n\ @author\ (Jacob\ Knott)\r\n\ @version\ (6-8-2017)\r\n
+comment1.params=newOrder\ newName
+comment1.target=DeskPricer(int,\ java.lang.String)
+comment1.text=\r\n\ Please\ enter\ order\ number\ and\ Your\ full\ Name.\r\n
+comment2.params=length\ width
+comment2.target=void\ dimensions(double,\ double)
+comment3.params=typeOfWood
+comment3.target=void\ woodType(java.lang.String)
+comment4.params=newDrawers
+comment4.target=void\ addDrawers(int)
+comment5.params=
+comment5.target=int\ getPrice()
+comment6.params=
+comment6.target=void\ printOrder()
+numComments=7
