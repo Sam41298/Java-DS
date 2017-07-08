@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Book
+comment0.text=\r\n\ the\ class\ Book\ is\ a\ template\ for\ all\ books\ \r\n\r\n\ @author\ Jacob\ Knott\r\n
+comment1.params=lastName\ firstName\ isbn\ title\ datePublished\ pages
+comment1.target=Book(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Book\r\n\ Please\ enter\ the\ authors\ first\ and\ last\ name,\ the\ isbn,\ title,\ and\r\n\ publishment\ date\ within\ quotation\ marks\ ("reqested\ info")\r\n
+comment2.params=page
+comment2.target=void\ editNumberOfPages(int)
+numComments=3
