@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Ordering
+comment1.params=
+comment1.target=Ordering()
+comment2.params=
+comment2.target=void\ createCustomer()
+comment3.params=
+comment3.target=void\ getCustomerInfo()
+comment4.params=
+comment4.target=void\ printBillOfSale()
+numComments=5

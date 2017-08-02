@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Customer
+comment0.text=\r\n\ Details\ of\ a\ customer.\r\n\ \r\n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\r\n\ @version\ 2016.02.29\r\n
+comment1.params=firstName\ lastName\ address\ city\ state\ zip\ phoneNumber\ companyName\ billAmount\ featureNum
+comment1.target=Customer(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ java.lang.String,\ java.lang.String,\ int,\ int)
+comment1.text=\r\n\ Create\ a\ record\ of\ a\ sighting\ of\ a\ particular\ type\ of\ animal.\r\n\ @param\ animal\ The\ animal\ spotted.\r\n\ @param\ spotter\ The\ ID\ of\ the\ spotter.\r\n\ @param\ count\ How\ many\ were\ seen\ (>\=\ 0).\r\n\ @param\ area\ The\ ID\ of\ the\ area\ in\ which\ they\ were\ seen.\r\n\ @param\ period\ The\ reporting\ period.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getfirstName()
+comment2.text=\r\n\ Return\ the\ type\ of\ animal\ spotted.\r\n\ @return\ The\ animal\ type.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getlastName()
+comment3.text=\r\n\ Return\ the\ \r\n
+comment4.params=
+comment4.target=java.lang.String\ getAddress()
+comment4.text=\r\n\ Return\ address\r\n\ FIGURE\ OUT\ HOW\ TO\ DISPLAY\ ALL\ IN\ SAME\ I0N\ LOGICAL\ ORDER.\ \r\n
+comment5.params=
+comment5.target=java.lang.String\ getPhoneNumber()
+comment5.text=\r\n\ Return\ phone\ number\r\n
+comment6.params=
+comment6.target=java.lang.String\ getCompanyName()
+comment6.text=\r\n\ Return\ companyName.\r\n
+numComments=7
