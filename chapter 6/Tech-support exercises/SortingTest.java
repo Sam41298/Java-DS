@@ -1,9 +1,7 @@
 import java.util.*;
 /**
  * Write a description of class SortingTest here.
- *I HAVE NO FCUKING CLUE WHAT THE HELL THIS CLASS IS DOING AND IT WON'T
- *FUCKING WORK I'M SO DONE WITH THIS CLASS I HATE PROGRAMMING AND ALWAYS WILL
- *I SUCK AT IT AND JUST WANT TO QUIT
+ * this doesn't work at all 
  * @author (your name)
  * @version (a version number or a date)
  */

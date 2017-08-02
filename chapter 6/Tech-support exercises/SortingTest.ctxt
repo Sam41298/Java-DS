@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=SortingTest
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ SortingTest\ here.\r\nI\ HAVE\ NO\ FCUKING\ CLUE\ WHAT\ THE\ HELL\ THIS\ CLASS\ IS\ DOING\ AND\ IT\ WON'T\r\nFUCKING\ WORK\ I'M\ SO\ DONE\ WITH\ THIS\ CLASS\ I\ HATE\ PROGRAMMING\ AND\ ALWAYS\ WILL\r\nI\ SUCK\ AT\ IT\ AND\ JUST\ WANT\ TO\ QUIT\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ SortingTest\ here.\r\n\ this\ doesn't\ work\ at\ all\ \r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=arr
 comment1.target=void\ getUnsortedArray(int[])
 comment1.text=\r\n\ this\ will\ create\ the\ array\ with\ ints\ to\ sort\r\n
