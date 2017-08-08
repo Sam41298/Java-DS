@@ -4,37 +4,34 @@ import java.io.*;
 /**
  * Details of a customer.
  * 
- * @author David J. Barnes and Michael Kölling
- * @version 2016.02.29
+ * @author Jacob Knott
  */
 public class Customer
 {
+    
+    private NumberGen numberGen = new NumberGen();
     // The first name of customer
-    private final String firstName;
+    private String firstName;
     // The last name of customer
-    private final String lastName;
+    private String lastName;
     // Customer full name
-    private final String fullName;
+    private String fullName;
     // The company name
-    private final String companyName;
+    private String company;
     // Adress of customer
-    private final String address;
+    private String address;
     // Street of customer
-    private final String street;
+    private String street;
     // City of residience
-    private final String city;
+    private String city;
     // customer state of residience 
-    private final String state;
+    private String state;
     // customer zip code
-    private final int zip;
+    private int zip;
     // Tcustomer phone number.
-    private final String phoneNumber;
-    //Bill Number
-    //private final int billAmount;
-    //Featrue choosen
-    //private final int featureNum;
+    private String phoneNumber;
     //Unique ID 
-    private int customerID;
+    private final int customerNum;
     
     /** 
      * Create and record all of a customers information
@@ -44,6 +41,10 @@ public class Customer
 
     public Customer(String firstName, String lastName, String street, String city, String state, int zip, String phoneNumber, String companyName)
     {
+        //Random r = new Random( System.currentTimeMillis() ); // Generator seeded with computer clock
+        //customerNum =(1 + r.nextInt(2)) * 10000 + r.nextInt(10000); // generates 5 digit number, adapted from stackoverflow
+        //this.customerNum = customerNum; // cHange so that bounds are between 10,000 and 99,999
+        customerNum = numberGen.random5Digit();
         this.firstName = firstName;
         this.lastName = lastName;
         this.street = street;
@@ -51,7 +52,7 @@ public class Customer
         this.state = state;
         this.zip = zip;
         this.phoneNumber = phoneNumber;
-        this.companyName = companyName;
+        company = companyName;
         fullName = firstName + " " + lastName;
         address = street + " " + city + " " + state + " " + zip;
     }
@@ -65,6 +66,10 @@ public class Customer
 
     public Customer()
     {
+        //Random r = new Random( System.currentTimeMillis() ); // these two lines
+        //customerNum =(1 + r.nextInt(2)) * 10000 + r.nextInt(10000); // create the orderNum
+        //this.customerNum = customerNum;
+        customerNum = numberGen.random5Digit();
         firstName = "unknown";
         lastName = "unknown";
         street = "unknown";
@@ -72,22 +77,57 @@ public class Customer
         state = "unknown";
         zip = 00000;
         phoneNumber = "unknown";
-        companyName = "unknown";
+        company = "unknown";
         fullName = firstName + " " + lastName;
-        address = street + " " + city + " " + state + " " + zip;
+        address = street + ", " + city + ", " + state + ", " + zip;
+    }
+    
+    /**
+     * changes the customer's name
+     */
+        public void changeName(String firstName, String lastName){
+        fullName = firstName + " " + lastName;
+    }
+    
+    /**
+     * changes the customer's phone number
+     */
+        public void changePhoneNumber(String phoneNumber){
+        this.phoneNumber = phoneNumber;
+    }
+    
+    /**
+     * changes the customer's address
+     */    
+        public void changeAddress(String street, String city, String state, int zip){
+        address = street + ", " + city + ", " + state + ", " + zip;
+    }
+    
+    /**
+     * changes the company a customer is associated with
+     */    
+        public void changeCompany(String company){
+        this.company = company;
+    }
+    
+    /**
+    * get the order number
+    */
+   public int getCustomerNumber(){
+    return customerNum;
     }
     
     /**
      * Return the type of animal spotted.
      * @return The animal type.
      */
-    public String getfirstName() 
+    public String getFirstName() 
     {
         return firstName;
     }
 
     /**
-     * Return the 
+     * Return last name
      */
     public String getlastName() 
     {
@@ -118,21 +158,22 @@ public class Customer
         return phoneNumber;
     }
     
-     /** MOVE TO ORDER CLASS
+     /**
      * Return companyName.
      */
     public String getCompanyName() 
     {
-        return companyName;
+        return company;
     }
     
     /**
      * Prints all of the customer information
      */
-    public void printcustomerDetails(){
+    public void printCustomerDetails(){
+        System.out.println("Customer number: " + customerNum);
         System.out.println( "Full name: " + fullName);
         System.out.println( "Phone Number: " + phoneNumber);
         System.out.println( "Address: " + address);
-        System.out.println( "Company name: " + companyName );
+        System.out.println( "Company name: " + company );
     }
 }

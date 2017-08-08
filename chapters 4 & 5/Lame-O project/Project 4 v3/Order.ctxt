@@ -1,0 +1,29 @@
+#BlueJ class context
+comment0.target=Order
+comment0.text=\r\n\ Manages\ a\ customer\ order.\ It\ tracks\ and\ uses\ information\ from\r\n\ the\ Inventory\ class(NOT\ COMPLETED)\ and\ Customer\ class\ (COMPLETE)\r\n\ methods\ here\ will\ use\ information\ from\ both\ classes\ to\ help\ a\ \r\n\ customer\ build\ and\ price\ their\ desired\ cookie\ cutters.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Order()
+comment1.text=\r\n\ Creates\ an\ Order\r\n
+comment2.params=
+comment2.target=int\ getPrice()
+comment3.params=firstName\ lastName\ street\ city\ state\ zip\ phoneNumber\ companyName
+comment3.target=void\ updateCustomerInfo(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ java.lang.String,\ java.lang.String)
+comment3.text=\r\n\ I\ want\ to\ make\ this\ obselete,\ see\ customer\ class\ 1st\ constructor\ to\ see\ how,\ hopefully\r\n\ Updates\ Customer\ information\r\n
+comment4.params=
+comment4.target=void\ viewProducts()
+comment4.text=\r\n\ Prints\ list\ of\ all\ products\ w/\ featurs\ and\ their\ prices.\r\n
+comment5.params=
+comment5.target=void\ getDesignChoice()
+comment5.text=\r\n\ For\ the\ selection\ and\ price\ builder\ I\ want\ to\ make\ it\ so\ the\ customer\r\n\ can\ have\ multiple\ features\ selected.\ An\ add\ feature\ method\ is\ needed\r\n\ \r\n\ for\ initial\ selection\ they\ will\ choose\ a\ design\r\n\ it\ it\ will\ display\ the\ product\ name\ and\ its\ base\ price\r\n\ after\ that\ have\ it\ print\ "If\ you\ would\ like\ features,\ please\ add\ them\ with\r\n\ the\ add\ feature\ to\ select\ desigend\ feautures"\r\n
+comment6.params=design
+comment6.target=void\ chooseDesign(int)
+comment6.text=\r\n\ Having\ trouble\ geting\ it\ to\ store\ the\ right\ values\ in\ selected\ array\ currently\ it\ stair\r\n\ stair\ steps\ it's\ way\ through\ the\ arrays\ ie\ feature\ 1\ \=\ 10\ 2\ \=\ 30\ 3\ \=50\ 4\ \=\ 130\ 5\ \=\ 500\r\n\ I\ have\ no\ clue\ why\r\n
+comment7.params=feature
+comment7.target=void\ addFeature(int)
+comment8.params=feature
+comment8.target=void\ removeFeature(int)
+comment8.text=\r\n\ THis\ method\ has\ the\ same\ problem\ as\ addFeature\r\n\ Allows\ a\ user\ to\ remove\ a\ feature\ and\ change\ price\ back.\ I\ would\ like\ to\ make\ \r\n\ it\ so\ this\ method\ can't\ be\ used\ until\ a\ feature\ is\ applied\ at\ the\ very\ least.\ \r\n\ if\ I\ had\ time\ I'd\ want\ to\ make\ is\ so\ it\ can\ only\ remove\ applied\ feautures.\r\n
+comment9.params=
+comment9.target=void\ printBill()
+comment9.text=\r\n\ This\ method\ will\ print\ the\ users\ bill\ and\ customer\ information\r\nMETHOD\ NOT\ COMPLET\ I\ WANT\ TO\ FIND\ A\ WAY\ TO\ PRINT\ COOKIE\ CUTTER\ SELECTION\ AND\r\n\ SELECTED\ FEATURES\ IF\ THERE\ ARE\ ANY.\r\n
+numComments=10

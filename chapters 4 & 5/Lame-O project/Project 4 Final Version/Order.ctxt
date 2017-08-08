@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Order
+comment0.text=\r\n\ Manages\ a\ customer\ order.\ It\ tracks\ and\ uses\ information\ from\r\n\ the\ Inventory\ class(NOT\ COMPLETED)\ and\ Customer\ class\ (COMPLETE)\r\n\ methods\ here\ will\ use\ information\ from\ both\ classes\ to\ help\ a\ \r\n\ customer\ build\ and\ price\ their\ desired\ cookie\ cutters.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Order()
+comment1.text=\r\n\ Creates\ an\ Order\r\n
+comment2.params=
+comment2.target=int\ getPrice()
+comment3.params=
+comment3.target=void\ viewProducts()
+comment3.text=\r\n\ Prints\ list\ of\ all\ products\ w/\ featurs\ and\ their\ prices.\r\n
+comment4.params=design
+comment4.target=void\ chooseDesign(int)
+comment4.text=\r\n\ Having\ trouble\ geting\ it\ to\ store\ the\ right\ values\ in\ selected\ array\ currently\ it\ stair\r\n\ stair\ steps\ it's\ way\ through\ the\ arrays\ ie\ feature\ 1\ \=\ 10\ 2\ \=\ 30\ 3\ \=50\ 4\ \=\ 130\ 5\ \=\ 500\r\n\ I\ have\ no\ clue\ why\r\n\ \r\n\ THis\ appears\ to\ be\ fixed\ \r\n
+comment5.params=feature
+comment5.target=void\ addFeature(int)
+comment6.params=feature
+comment6.target=void\ removeFeature(int)
+comment6.text=\r\n\ THis\ method\ has\ the\ same\ problem\ as\ addFeature\r\n\ Allows\ a\ user\ to\ remove\ a\ feature\ and\ change\ price\ back.\ I\ would\ like\ to\ make\ \r\n\ it\ so\ this\ method\ can't\ be\ used\ until\ a\ feature\ is\ applied\ at\ the\ very\ least.\ \r\n\ if\ I\ had\ time\ I'd\ want\ to\ make\ is\ so\ it\ can\ only\ remove\ applied\ feautures.\r\n
+comment7.params=
+comment7.target=void\ printBill()
+comment7.text=\r\n\ This\ method\ will\ print\ the\ users\ bill\ and\ customer\ information\r\nMETHOD\ NOT\ COMPLET\ I\ WANT\ TO\ FIND\ A\ WAY\ TO\ PRINT\ COOKIE\ CUTTER\ SELECTION\ AND\r\n\ SELECTED\ FEATURES\ IF\ THERE\ ARE\ ANY.\r\n
+numComments=8

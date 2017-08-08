@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=NumberGen
+comment1.params=
+comment1.target=NumberGen()
+comment2.params=
+comment2.target=int\ random5Digit()
+comment2.text=\r\n\ this\ generates\ a\ random\ 5\ digit\ number.\r\n\ \r\n
+numComments=3

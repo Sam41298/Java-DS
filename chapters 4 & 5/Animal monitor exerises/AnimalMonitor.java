@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.*;
 
 /**
  * Monitor counts of different types of animal.
@@ -186,6 +187,23 @@ public class AnimalMonitor
         return records;
     }
     
+     /**
+      * Ex 6.86
+      * 
+     * Return a list of all sightings of the given type of animal
+     * in a particular area.
+     * @param animal The type of animal.
+     * @param area The ID of the area.
+     * @return A list of sightings.
+     */
+    public List<Sighting> getSightingsInAreaV2(String animal, int area)
+    {
+        return sightings.stream()
+        .filter(record -> animal.equals(record.getAnimal()))
+        .filter(record -> area) == (record.getArea())
+        .collect(Collectors.toList());
+    }
+    
     /**
      * Return a list of all the sightings of the given animal.
      * @param animal The type of animal.
@@ -200,6 +218,19 @@ public class AnimalMonitor
             }
         }
         return filtered;
+    }
+    
+     /**
+      * Ex 6.85
+     * Return a list of all the sightings of the given animal.
+     * @param animal The type of animal.
+     * @return A list of all sightings of the given animal.
+     */
+    public List<Sighting> getSightingsOfV2(String animal)
+    {
+       return sightings.stream()
+       .filter(record -> animal.equals(record.getAnimal()))
+       .collect(Collectors.toList());
     }
     
     /**

@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\r\n\ This\ will\ be\ what\ the\ customer\ interacts\ with,\ I\ missed\ the\r\n\ assignment\ objectives\r\n\ but\ I\ am\ working\ to\ restructure\ this\ to\ fit\ the\ assigned\r\n\ guidelines.\ I\ plan\ to\ bounce\ between\ in\ and\ chapter\ six\ and\ have\ both\ \r\n\ completed\ as\ soon\ as\ possible.\ (preferably\ by\ this\ sunday.)\r\n
+comment1.params=
+comment1.target=Main()
+comment1.text=\r\n\ this\ creates\ an\ interface\ to\ interact\ with\ customers\ and\ orders\r\n
+comment2.params=design
+comment2.target=void\ newOrder(int)
+comment2.text=\r\n\ begins\ order\ creation\r\n
+comment3.params=
+comment3.target=void\ viewProducts()
+comment3.text=\r\n\ Prints\ list\ of\ all\ products\ w/\ featurs\ and\ their\ prices.\r\n
+comment4.params=customer
+comment4.target=void\ addCustomer(Customer)
+comment4.text=\r\n\ adapted\ method\ for\ adding\ customers\r\n
+comment5.params=firstName\ lastName\ street\ city\ state\ zip\ phoneNumber\ companyName
+comment5.target=void\ updateCustomerInfo(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ java.lang.String,\ java.lang.String)
+comment5.text=\r\n\ Better\ method\ for\ creating\ and\ adding\ customers\r\n\ \ \r\n\ Updates\ Customer\ information\r\n
+comment6.params=
+comment6.target=void\ printAllCustomers()
+comment7.params=searchedName
+comment7.target=void\ printCustomerInfo(java.lang.String)
+comment7.text=\r\n\ Prints\ Customer\ information\r\n\ WARNING\:\ ETERNAL\ LOOP,\ WILL\ NEVER\ FIND\ NAME\ AND\ PRINTS\ NO\ MATCH\ MESSAGE\ UNTIL\ FORCED\ RESET\r\n
+comment8.params=
+comment8.target=void\ getBill()
+comment8.text=\r\n\ get\ the\ bill\r\n\ NEED\ TO\ MAKE\ COMPATIBLE\ WITH\ ARRAYLIST\ \r\n
+numComments=9

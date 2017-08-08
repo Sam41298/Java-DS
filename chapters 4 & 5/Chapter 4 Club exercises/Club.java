@@ -59,7 +59,7 @@ public class Club
      * Ex 4.55 -Purge
      * takes all members who joined in a certian month and year and 
      * places them in their own collection.
-     */
+     
     
     public ArrayList Purge(int month, int year){
        ArrayList newMembers = new ArrayList();
@@ -73,6 +73,6 @@ public class Club
             }
         }
         return newMembers;
-    }
+    }*/
 }
 
