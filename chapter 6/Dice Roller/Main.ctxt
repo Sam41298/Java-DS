@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\r\n\ Main\ should\ \ be\ really\ easy\ to\ write\ because\ of\ it\ is\ only\ calling\ and\ applying\ methods\ from\ the\ other\ two\ classes\r\n\ so\ the\ ground\ work\ and\ leg\ work\ must\ be\ done\ in\ the\ Dice\ &\ RollCheck\ classes.\ \r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Main()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Main\r\n
+comment2.params=numberOfSides\ numberOfDice
+comment2.target=void\ fillDiceBag(int,\ int)
+comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
+numComments=3

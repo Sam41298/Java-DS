@@ -29,6 +29,8 @@ public class MapTester
     /**
      * Ex. 6.27
      * Find a person's phone number
+     * 
+     * @returns name
      */
     public String lookUpNumber(String name){
         return (String) contacts.get(name);

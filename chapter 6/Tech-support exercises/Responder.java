@@ -9,7 +9,6 @@ import java.util.*;
 public class Responder
 {
     // Used to map key words to responses.
-    
     private HashMap<String, String> responseMap;
     // Default responses to use if we don't recognise a word.
     private ArrayList<String> defaultResponses;
@@ -45,11 +44,11 @@ public class Responder
     /**
      * Ex 6.45, 6.46, 
      */
-        public String generateResponse(HashSet<String> words)
+    public String generateResponse(HashSet<String> words)
     {
         Iterator iterator = words.iterator();
         while(iterator.hasNext()){
-            String word = iterator.next();
+          String word = iterator.next();
             if(word.equalsIgnoreCase("crashes")){
                 word = "crash";
             }
@@ -72,7 +71,8 @@ public class Responder
             }
 
     }
-
+    
+    
     /**
      * Enter all the known keywords and their associated responses
      * into our response map.
@@ -142,7 +142,8 @@ public class Responder
     }
 
     /**
-     * Ex. 6.44 alterations should stop default resposnses from ever being repeated. 
+     * Ex. 6.44 
+     * alterations should stop default resposnses from ever being repeated. 
      * Randomly select and return one of the default responses.
      * @return     A random default response
      */

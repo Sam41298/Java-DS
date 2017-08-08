@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=RollCheck
+comment0.text=\r\n\ I\ have\ to\ add\ two\ checks\ to\ this.\ One\ will\ check\ if\ \ 1/2\ or\ more\ of\ the\ dice\ are\ 1.\ If\ true\ print\ ROLL\ FAILED\r\n\ if\ false\ it\ prints\ individual\ rolls\ and\ displays\ sum.\r\n\ \r\n\ 2nd\ check\ must\ cheks\ If\ any\ of\ the\ results\ are\ the\ same\ as\ the\ die\ type,\ that\ individual\ result\ is\ open\ ended,\ \r\n\ and\ another\ dice\ is\ rolled\ and\ added\ to\ the\ first\ result.\ This\ can\ happen\ multiple\ times.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=RollCheck()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ RollCheck\r\n
+comment2.params=y
+comment2.target=int\ sampleMethod(int)
+comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
+numComments=3

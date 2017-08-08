@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=RandomTester
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ RandomTester\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ RandomTester\ here.\r\n\r\n\ @author\ (Jacob\ Knott)\r\n\ @version\ (1\ -\ 8/4/2017)\r\n
 comment1.params=
 comment1.target=RandomTester()
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ RandomTester\r\n
@@ -12,7 +12,7 @@ comment3.target=void\ printMultiRandom(int)
 comment3.text=\r\n\ Ex\ 6.15\r\n\ Prints\ mutliple\ random\ numbers\r\n
 comment4.params=
 comment4.target=int\ roleDie()
-comment4.text=\r\n\ Ex\ 6.16\r\n\ Generates\ a\ random\ number\ between\ 1\ and\ 6\r\n
+comment4.text=\r\n\ Ex\ 6.16\r\n\ Generates\ a\ random\ number\ between\ 1\ and\ 6\r\n\ \r\n\ @returns\ random\ number\r\n
 comment5.params=
 comment5.target=java.lang.String\ getResponse()
 comment5.text=\r\n\ Ex\ 6.17\r\n\ "Randomly"\ selects\ a\ response\r\n
@@ -21,8 +21,8 @@ comment6.target=java.lang.String\ getResponseV2()
 comment6.text=\r\n\ Ex\ 6.18\r\n\ "Randomly"\ selects\ a\ response\r\n
 comment7.params=max
 comment7.target=int\ randomInclusiveBound(int)
-comment7.text=\r\n\ Ex\ 6.19\r\n\ Generates\ a\ random\ number\ between\ 1\ and\ max\r\n
+comment7.text=\r\n\ Ex\ 6.19\r\n\ Generates\ a\ random\ number\ between\ 1\ and\ max\r\n\ \r\n\ @returns\ random.nextInt(max)+1\r\n
 comment8.params=min\ max
 comment8.target=int\ randomWithBounds(int,\ int)
-comment8.text=\r\n\ Ex\ 6.20\r\n\ Generates\ a\ random\ number\ between\ min\ and\ max\r\n
+comment8.text=+\r\n\ Ex\ 6.20\r\n\ Generates\ a\ random\ number\ between\ min\ and\ max\r\n
 numComments=9

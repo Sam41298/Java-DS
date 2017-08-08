@@ -9,5 +9,5 @@ comment2.target=void\ addContact(java.lang.String,\ java.lang.String)
 comment2.text=\r\n\ Ex.\ 6.27\r\n\ Adds\ a\ person\ to\ contacts\r\n
 comment3.params=name
 comment3.target=java.lang.String\ lookUpNumber(java.lang.String)
-comment3.text=\r\n\ Ex.\ 6.27\r\n\ Find\ a\ person's\ phone\ number\r\n
+comment3.text=\r\n\ Ex.\ 6.27\r\n\ Find\ a\ person's\ phone\ number\r\n\ \r\n\ @returns\ name\r\n
 numComments=4

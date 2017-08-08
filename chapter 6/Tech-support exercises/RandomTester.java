@@ -2,8 +2,8 @@ import java.util.*;
 /**
  * Write a description of class RandomTester here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Jacob Knott)
+ * @version (1 - 8/4/2017)
  */
 public class RandomTester
 {
@@ -41,6 +41,8 @@ public class RandomTester
     /**
      * Ex 6.16
      * Generates a random number between 1 and 6
+     * 
+     * @returns random number
      */
     public int roleDie(){
         return random.nextInt(6)+ 1;
@@ -91,16 +93,20 @@ public class RandomTester
     /**
      * Ex 6.19
      * Generates a random number between 1 and max
+     * 
+     * @returns random.nextInt(max)+1
      */
     public int randomInclusiveBound(int max){
         return random.nextInt(max)+ 1;
     }    
     
-    /**
+    /**+
      * Ex 6.20
      * Generates a random number between min and max
      */
     public int randomWithBounds(int min, int max){
         return random.nextInt(max - min + 1)+ min;
     }    
+    
+    
 }

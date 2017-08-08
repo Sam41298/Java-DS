@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=SortingTestV2
+comment0.text=\r\n\ This\ class\ takes\ an\ integer\ array\ and\ sorts\ the\ values\ into\ ascedning\ order.\r\n\r\n\ @author\ (Jacob\ Knott)\r\n\ \r\n
+comment1.params=
+comment1.target=SortingTestV2()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ SortingTestV2\r\n
+comment2.params=numbers
+comment2.target=void\ sortArray(int[])
+comment2.text=\r\n\ this\ method\ sorts\ all\ the\ numbers\ in\ an\ array\ that\ the\ user\ fills.\r\n
+numComments=3

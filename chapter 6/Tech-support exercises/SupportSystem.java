@@ -25,8 +25,18 @@ public class SupportSystem
         reader = new InputReader();
         responder = new Responder();
     }
-
+   
+    /**
+     * Ex 6.82
+     */
+    public static void main(String [] args){
+        SupportSystem system = new SupportSystem();
+        system.start();
+    }
     
+    /**
+     * Starts the interface for the user
+     */
     public void start()
     {
         boolean finished = false;

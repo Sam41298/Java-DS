@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=WordCounter
+comment0.text=\r\n\ Keep\ a\ record\ of\ how\ many\ times\ each\ word\ was\r\n\ entered\ by\ users.\r\n\ \r\n\ @author\ \ \ \ \ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\r\n\ @version\ \ \ \ 1.0\ (2016.02.29)\r\n
+comment1.params=
+comment1.target=WordCounter()
+comment1.text=\r\n\ Create\ a\ WordCounter\r\n
+comment2.params=input
+comment2.target=void\ addWords(java.util.HashSet)
+comment2.text=\r\n\ Update\ the\ usage\ count\ of\ all\ words\ in\ input.\r\n\ @param\ input\ A\ set\ of\ words\ entered\ by\ the\ user.\r\n
+comment3.params=
+comment3.target=void\ usageCounter()
+comment3.text=\r\n\ Ex\ 6.49\r\n\ This\ prints\ the\ usage\ of\ each\ word\ after\ goodbye\ message\ is\ printed.\r\n\ This\ runs\ endlessly,\ the\ loop\ isn't\ breaking\ though\ i\ think\ it\ should\ after\ it\ runs\ out\ of\r\n\ tokens\r\n
+numComments=4
