@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Inventory
-comment0.text=\r\n\ I\ am\ hoping\ to\ have\ an\ ArrayList\ for\ each\ Cutter\ and\ stor\ its\ prices.\r\n\ Elements\ can\ be\ called\ to\ grab\ the\ needed\ number.\ I\ hope\r\n\ There\ has\ to\ be\ a\ better\ way\ though\r\n\ Advice\ would\ be\ valued\ and\ appreciated\r\n\r\nthe\ selected\ design\ field\ is\ meant\ to\ remember\ the\ design\ selected\ by\ the\ customer\r\nmaking\ it\ so\ in\ later\ methods\ (addFeature\ &\ removeFeature)\ so\ the\ customer\ does'nt\ have\ to\ \r\nkeep\ specifying\ their\ choosen\ design\r\n\r\nanother\ way\ to\ be\ have\ a\ template\ for\ all\ cookie\ cuttters\ here\ and\r\nhave\ the\ order\ class\ manipulate\ \r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ Inventory\ details\r\n
 comment1.params=
 comment1.target=Inventory()
 comment2.params=design\ feature

@@ -8,30 +8,14 @@ import java.util.*;
  */
 public class Main
 {
-    /**
-   // holds customer info
-   private Customer customer;
-   // holds product details
-   private Inventory inventory;
-   // Holds order info 
-   private Order order;
-   */
-   // Wrong to hold multiple pieces of information there must Array List for
-   // All but inventory which remains the same
-   
    // Stores all customers
    private ArrayList<Customer> customers;
    // Stores all customers
    private ArrayList<Order> orders;
-   // Stores all customers HAVE IDEAS, NOT SURE HOW TO IMPLEMENT!!!
-   //private ArrayList<CustomerNumbers> customerNum;
-   // Stores all customers
-    // holds product details
-    // incentory remains constant same for all orders and customers
+   // Products for purchase
    private Inventory inventory;
-   private NumberGen numGen;
+   // Temporary order
    private Order tempOrder;
-   
    
    /**
     * this creates an interface to interact with customers and orders
@@ -50,22 +34,28 @@ public class Main
     * @param design has the user select a design form out inventory
     * @param customer attaches a customer to the order
     */
-   public void StartNewOrder(int design, Customer customer){
+   public void StartNewOrder(int design, int customerNumber){
        tempOrder = new Order();
-       
        tempOrder.chooseDesign(design);
-       
-    }
+       Customer passedCustomer = new Customer();
+       Customer test = new Customer();
+       passedCustomer = getCustomer(customerNumber);
+       if(passedCustomer == test){
+           System.out.println("Customer " + customerNumber + " does not exist!");
+       } else{
+           tempOrder.attachedCustomer(passedCustomer);
+       }
+   }
    
-    /**
-     * Prints list of all products w/ featurs and their prices.
-     */
+   /**
+    * Prints list of all products w/ featurs and their prices.
+    */
     public void viewProducts(){
        inventory.printDesigns();
     }
     
    /**
-    * adapted method for adding customers
+    * Adds pre-existing customer to customers
     */
    public void addCustomer(Customer customer){
     customers.add(customer);
@@ -76,7 +66,7 @@ public class Main
     *  
     * Updates Customer information
     */
-   public void updateCustomerInfo(String firstName, String lastName, String street, String city, String state, int zip, String phoneNumber, String companyName){
+   public void addCustomerV2(String firstName, String lastName, String street, String city, String state, int zip, String phoneNumber, String companyName){
        Customer customer= new Customer();
        customer.changeName(firstName, lastName);
        customer.changePhoneNumber(phoneNumber);
@@ -85,39 +75,59 @@ public class Main
        
        customers.add(customer);
     }
-    
-    public void printAllCustomers(){
+   
+   /**
+    * Prints all customers
+    */
+   public void printAllCustomers(){
         for(Customer customer: customers){
         customer.printCustomerDetails();
       }
-    }
+   }
 
    /**
     * Prints Customer information
-    * WARNING: ETERNAL LOOP, WILL NEVER FIND NAME AND PRINTS NO MATCH MESSAGE UNTIL FORCED RESET
     */
-   public void printCustomerInfo(String searchedName){
+   public void printCustomerInfo(int searchID){
      boolean foundCustomer = false;
      Customer found = new Customer();
-     while(foundCustomer == false){
+       
+      for( Customer customer : customers){
+           System.out.println("Entering loop\n");
+           customer.printCustomerDetails();
+           if (customer.getCustomerNumber() == searchID){
+            System.out.println("Found!!!");
+            found = customer;
+            foundCustomer = true;
+           }
+           System.out.println("\nexiting loop");
+      }
+    
+      if (foundCustomer == true){
+           found.printCustomerDetails();
+      } 
+      else {
+           System.out.println("No matching customer on file.");
+      }
+     
+    
+    }
+    
+   /**
+    * seartches for a customer view their number
+    */ 
+   public Customer getCustomer(int searchID){
+      boolean foundCustomer = false;
+      Customer found = new Customer();
        
        for( Customer customer : customers){
-           if ( customer.getFirstName() == searchedName){
+           if (searchID == customer.getCustomerNumber()){
             foundCustomer = true;
             found = customer;
            }
        }
-      }
-       if (foundCustomer == true){
-           found.printCustomerDetails();
-       } else {
-           System.out.println("No matching customer on file.");
-       }
-     
-    
-    }
-
- 
+       return found;
+   }
    
    /**
     * get the bill
@@ -132,7 +142,6 @@ public class Main
     */
     public void finishOrder(){
         tempOrder.printBill();
-        
         orders.add(tempOrder);
     }
 }

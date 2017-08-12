@@ -34,16 +34,11 @@ public class Customer
     private final int customerNum;
     
     /** 
-     * Create and record all of a customers information
-     * If I can find away this constructor will be used
-     * when an order is created.
+     * Create and record a customer's information
      */
 
     public Customer(String firstName, String lastName, String street, String city, String state, int zip, String phoneNumber, String companyName)
     {
-        //Random r = new Random( System.currentTimeMillis() ); // Generator seeded with computer clock
-        //customerNum =(1 + r.nextInt(2)) * 10000 + r.nextInt(10000); // generates 5 digit number, adapted from stackoverflow
-        //this.customerNum = customerNum; // cHange so that bounds are between 10,000 and 99,999
         customerNum = numberGen.random5Digit();
         this.firstName = firstName;
         this.lastName = lastName;
@@ -58,17 +53,11 @@ public class Customer
     }
     
     /**
-     * Create and record all of a customers information
-     * Until I find a way to use the first constructor this will setup
-     * a dummy customere that is updated during the order process via 
-     * a method in the class
+     * Create and record all of a customer's information
      */
 
     public Customer()
     {
-        //Random r = new Random( System.currentTimeMillis() ); // these two lines
-        //customerNum =(1 + r.nextInt(2)) * 10000 + r.nextInt(10000); // create the orderNum
-        //this.customerNum = customerNum;
         customerNum = numberGen.random5Digit();
         firstName = "unknown";
         lastName = "unknown";

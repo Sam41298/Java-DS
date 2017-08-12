@@ -1,20 +1,10 @@
-
-/**
- * Write a description of class NumberGen here.
- * PUT IN CHECK STATEMENT 
- * @author (your name)
- * @version (a version number or a date)
- */
-
 import java.util.*;
 
 public class NumberGen
 {
-    
-    
-    // instance variables - replace the example below with your ow
+    // new random number generator
     Random randomNum = new Random();
-    // passed value
+    // Value 
     private int value;
     // storing the customer id's
     private ArrayList<Integer> idList = new ArrayList<Integer>();
@@ -37,14 +27,12 @@ public class NumberGen
         {
          int possibleId = rand.nextInt(99999-10000+1)+10000;
          
-         // Searching for a possible dupe.
          for(int customerID : idList){
              if (possibleId == customerID){
                  foundID = true;
              }
          }
          
-         // Checking if a dupe was found.
          if(foundID == false){
              uniqueId = possibleId;
              done = true;
@@ -54,9 +42,6 @@ public class NumberGen
         }
         
         return uniqueId;
-    }
-        //need to add a comparison feature before adding id to customer
-        //idList.add(uniqueId); says may be unititialized
-        
-    }
+    }     
+}
     

@@ -2,19 +2,7 @@ import java.util.*;
 import java.io.*;
 
 /**
- * I am hoping to have an ArrayList for each Cutter and stor its prices.
- * Elements can be called to grab the needed number. I hope
- * There has to be a better way though
- * Advice would be valued and appreciated
- *
- *the selected design field is meant to remember the design selected by the customer
- *making it so in later methods (addFeature & removeFeature) so the customer does'nt have to 
- *keep specifying their choosen design
- *
- *another way to be have a template for all cookie cuttters here and
- *have the order class manipulate 
- * @author (your name)
- * @version (a version number or a date)
+ * Inventory details
  */
 public class Inventory
 {
