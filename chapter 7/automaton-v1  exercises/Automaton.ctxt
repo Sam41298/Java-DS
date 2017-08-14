@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Automaton
+comment0.text=\r\n\ Model\ a\ 1D\ elementary\ cellular\ automaton.\r\n\ \r\n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\r\n\ @version\ \ 2016.02.29\ -\ version\ 1\r\n
+comment1.params=numberOfCells
+comment1.target=Automaton(int)
+comment1.text=\r\n\ Create\ a\ 1D\ automaton\ consisting\ of\ the\ given\ number\ of\ cells.\r\n\ @param\ numberOfCells\ The\ number\ of\ cells\ in\ the\ automaton.\r\n
+comment2.params=
+comment2.target=void\ print()
+comment2.text=\r\n\ Print\ the\ current\ state\ of\ the\ automaton.\r\n
+comment3.params=
+comment3.target=void\ originalupdate()
+comment3.text=\r\n\ Original\ update\r\n\ Update\ the\ automaton\ to\ its\ next\ state.\r\n
+comment4.params=
+comment4.target=void\ updateV2()
+comment4.text=\r\n\ Ex\ 7.31\r\n\ Update\ the\ automaton\ to\ its\ next\ state.\r\n
+comment5.params=
+comment5.target=void\ update()
+comment5.text=\r\n\ Ex\ 7.3\r\n\ Update\ the\ automaton\ to\ its\ next\ state.\r\n
+comment6.params=left\ center\ right
+comment6.target=int\ calculateNextState(int,\ int,\ int)
+comment6.text=\r\n\ Ex\ 7.32\r\n\ returns\ the\ calculated\ value\ of\ the\ next\ state.\r\n
+comment7.params=
+comment7.target=void\ reset()
+comment7.text=\r\n\ Reset\ the\ automaton.\r\n
+numComments=8

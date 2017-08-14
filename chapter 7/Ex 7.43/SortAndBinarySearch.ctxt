@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=SortAndBinarySearch
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ binarySearch\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=SortAndBinarySearch()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ binarySearch\r\n
+comment2.params=
+comment2.target=void\ binarySearchExample()
+comment2.text=\r\n\ not\ sure\ whats\ up\ here,\ it\ should\ search\ for\ 42\ and\ find\ it.\ but\ when\ I\ try\ to\ view\ the\ array\ \r\n\ it\ returns\ an\ address\ not\ the\ actual\ list.\r\n
+numComments=3
