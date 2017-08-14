@@ -48,16 +48,32 @@ public class Dice
         return value;
     }
     
+    /**
+     * rolls dice defined ind constructor
+     */
     public void roll(){
         Random rand = new Random();
         setValue( rand.nextInt(this.sideNumber) + 1 );
+        //System.out.println(value);
     }
     
     /**
-     * I doubt this is how cases were inteded to be used but this was one of the two ways I could think to do this project. 
-     * I could also have each case add their product to a collection(not sure which kind yet, leaning to HashMap that contains 10 die) and this would easily apply 
-     * RollCheck methods with the use of an iterator. I think
-     * 
+     * lets fuck some shit up!
+     */
+    public void testRoller(){
+        Random rand = new Random();
+
+        setValue( rand.nextInt(this.sideNumber) + 1 );
+		
+		if( value == 1){
+        System.out.println("Roll Failed (from testRoller() )");
+    	}
+		else {
+			//System.out.println(value);
+		}
+	}
+    
+    /**
      * A user determines how many sides a dice should have and then rolls the dice. 
      * Valid types of dice are 4, 6, 8, 10, 12, 20, and 100.
      * If not a valid type an error message is printed asking for a valid input.
@@ -76,8 +92,59 @@ public class Dice
           {
               int roll = rand.nextInt(4)+1;
               System.out.println(roll);
-              
+               number = roll;
           }
+          case 6:
+          {
+              int roll = rand.nextInt(6)+1;
+              System.out.println(roll);
+               number = roll;
+          }
+          case 8:
+          {
+              int roll = rand.nextInt(8)+1;
+              System.out.println(roll);
+               number = roll;
+          }
+          case 10:
+          {
+              int roll = rand.nextInt(10)+1;
+              System.out.println(roll);
+               number = roll;
+          }
+          case 12: 
+          {
+              int roll = rand.nextInt(12)+1;
+              System.out.println(roll);
+               number = roll;
+          }
+          case 20:
+          {
+              int roll = rand.nextInt(20)+1;
+              System.out.println(roll);
+               number = roll;
+          }
+          case 100:
+          {
+              int roll = rand.nextInt(100)+1;
+              System.out.println(roll);
+              number = roll;
+          }
+          // when passed through the rollCheck the message will be displayed and roll will fail.
+          default: System.out.println( " there is no "+"/" + sidedDie + "/"+" sided die, please select a valid die type") ; number = 1;
+        }
+        
+        System.out.println(number);
+        return number;
+        
+    }
+    
+    public int rollAV3(int sidedDie)
+    {
+        int number = 0;
+        Random rand = new Random();
+        switch(sidedDie){  
+          case 4: number = rand.nextInt(4) + 1 ; break;
           case 6: number = rand.nextInt(6) + 1 ; break;
           case 8: number = rand.nextInt(8) + 1 ; break;
           case 10:number = rand.nextInt(10) + 1 ; break;
@@ -85,7 +152,7 @@ public class Dice
           case 20: number = rand.nextInt(20) + 1 ; break;
           case 100: number = rand.nextInt(100) + 1 ; break;
           // when passed through the rollCheck the message will be displayed and roll will fail.
-          default: System.out.println( " there is not design "+"/" + sidedDie + "/"+" please select a valid product") ; number = 1;
+          default: System.out.println( " there is no "+"/" + sidedDie + "/"+" sided die, please select a valid die type") ; number = 1;
         }
         
         System.out.println(number);

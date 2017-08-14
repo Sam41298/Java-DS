@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\r\n\ OK\ I\ have\ the\ base\ for\ the\ two\ rules\ that\ have\ to\ be\ followed.\ one\ works\ the\ \r\n\ other\ i\ think\ is\ close.\r\nNow\ I\ need\ a\ way\ to\ get\ a\ running\ total\ of\ what\ some\ one\ rolled\ so\ that\ we\ can\ \r\neven\ start\ a\ check\ for\ the\ min\ and\ max\ limit.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n\ \r\n\ @Last\ Edit\:\ RealRollerv2\ method.\r\n
+comment1.params=
+comment1.target=Main()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Main\r\n
+comment2.params=numberOfSides\ numberOfDice\ targetNumber
+comment2.target=void\ RealRoller(int,\ int,\ int)
+comment2.text=\r\n\ TO\ try\ and\ get\ the\ re-roll\ if\ roll\ \=\ type\ i\ used\ a\ while\ loop\ but\ when\ the\ condition\ is\ true\r\n\ gets\ stuck\ in\ the\ loop\ forever\r\n
+comment3.params=numberOfSides\ numberOfDice
+comment3.target=void\ RealRoller(int,\ int)
+comment3.text=\r\n\ *\ TO\ try\ and\ get\ the\ re-roll\ if\ roll\ \=\ type\ i\ used\ a\ while\ loop\ but\ when\ the\ condition\ is\ true\r\n\ gets\ stuck\ in\ the\ loop\ forever\r\n
+comment4.params=numberOfSides\ numberOfDice
+comment4.target=void\ testRoller(int,\ int)
+comment4.text=\r\n\ Test\ Roller\ for\ code\ experimentation\r\n
+comment5.params=targetNum
+comment5.target=void\ targetCheck(int)
+comment6.params=targetNum
+comment6.target=void\ minMaxCheck(int)
+comment6.text=\r\n\ ensures\ target\ number\ is\ within\ range.\r\n
+comment7.params=
+comment7.target=void\ targetHit()
+comment7.text=\r\n\ checks\ to\ see\ if\ target\ number\ hit\r\n
+numComments=8

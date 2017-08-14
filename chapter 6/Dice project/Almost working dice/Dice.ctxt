@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Dice
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Dice\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=numberOfSide
+comment1.target=Dice(int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Dice\r\n
+comment2.params=x
+comment2.target=void\ numberOfSidesCheck(int)
+comment2.text=\r\n\ ensures\ number\ of\ sides\ is\ an\ acceptable\ number\r\n
+comment3.params=
+comment3.target=int\ getSideNumber()
+comment4.params=value
+comment4.target=void\ setValue(int)
+comment5.params=
+comment5.target=double\ getValue()
+comment6.params=
+comment6.target=void\ roll()
+comment6.text=\r\n\ rolls\ dice\ defined\ ind\ constructor\r\n
+comment7.params=sidedDie
+comment7.target=int\ rollAV2(int)
+comment7.text=\r\n\ A\ user\ determines\ how\ many\ sides\ a\ dice\ should\ have\ and\ then\ rolls\ the\ dice.\ \r\n\ Valid\ types\ of\ dice\ are\ 4,\ 6,\ 8,\ 10,\ 12,\ 20,\ and\ 100.\r\n\ If\ not\ a\ valid\ type\ an\ error\ message\ is\ printed\ asking\ for\ a\ valid\ input.\r\n\r\nI\ need\ help\ getting\ the\ defalut\ to\ work\ in\ this\r\n\r\n\ @param\ \ sidedDie\ (how\ many\ sides\ should\ the\ die\ have)\r\n\ @return\ number\ (number\ you\ roled)\r\n
+numComments=8
