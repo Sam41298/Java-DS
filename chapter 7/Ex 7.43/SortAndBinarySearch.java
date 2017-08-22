@@ -20,15 +20,16 @@ public class  SortAndBinarySearch
      * it returns an address not the actual list.
      */
     public void binarySearchExample(){
-        int array[]= new int[]{42,3,1,2};
+        int array[]= new int[]{54,42,3,1,2};
         Arrays.sort(array);
-        System.out.println(Arrays.asList(array));
+        
+        //System.out.println(Arrays.asList(array));
         System.out.println("What is answer to the great question of life, the universe, and everything is \n \n");
         int searchValue = 42;
         int returnValue = Arrays.binarySearch(array, searchValue);
         
          System.out.println("The answer to the great question of life, the universe, and everything is... ");
-         System.out.println( returnValue + "!");
+         System.out.println( array[returnValue] + "!");
          
     }
 }
