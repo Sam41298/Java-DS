@@ -50,12 +50,12 @@ public class Game
         studyDesk = new Room("at the desk, upon inspection hidden door is revealed");
         
         // adds items to room
-         outside.addItem(new Item("Red cloth","A torn piece of red cloth", 0 ));
-         garage.addItem(new Item("Crow Bar", "A heavy steel crow bar", 10 ));
-         garden.addItem( new Item("simple ring"," A simple band found in the garden, was it lost...\n or perhaps left on purpose", 1 ));
-         study.addItem(new Item("stack of Books"," A heavy stack of books of no paticular use.", 20));
-         studyDesk.addItem(new Item("Coffee Mug","An I H8 Mondays coffee mug", 2));
-         studyDesk.addItem(new Item("old key","A tarnished metal key to who knows what.", 1));secretRoom.addItem(new Item("buffout", "A substance that when consumed makes you stronger", 1));
+         outside.addItem(new Item("RedCloth","A torn piece of red cloth", 0 ));
+         garage.addItem(new Item("CrowBar", "A heavy steel crow bar", 10 ));
+         garden.addItem( new Item("simpleRing"," A simple band found in the garden, was it lost...\n or perhaps left on purpose", 1 ));
+         study.addItem(new Item("stackOfBooks"," A heavy stack of books of no paticular use.", 20));
+         studyDesk.addItem(new Item("CoffeeMug","An I H8 Mondays coffee mug", 2));
+         studyDesk.addItem(new Item("oldKey","A tarnished metal key to who knows what.", 1));secretRoom.addItem(new Item("buffout", "A substance that when consumed makes you stronger", 1));
          
         // initialise room exits
         outside.setExit("east", garden);
@@ -81,6 +81,7 @@ public class Game
     }    
 
     /**
+     * EXCEPTION HERE LINE 88
      *  Main play routine.  Loops until end of play.
      */
     public void play() 
@@ -99,10 +100,13 @@ public class Game
     }
 
     /**
+     * EXCEPTION HERE LINE 111
      * Print out the opening message for the player.
      */
     private void printWelcome()
     {
+        //createRooms();
+        player.enterRoom(createRooms());
         System.out.println();
         System.out.println("Welcome to the Ivory manor!");
         System.out.println("It is a new, incredibly boring adventure game.");
@@ -204,6 +208,7 @@ public class Game
     }
 
     /**
+     * EXCEPTION OCCURS HERE
      * 8.23
      * takes player to their previous room
      */    

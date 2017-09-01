@@ -50,10 +50,8 @@ public class Room
      */
     public String getLongDescription()
     {
-        return "You are " + description + ".\n" + getExitString() + "\nItems in area: " + items.getItemsNames();
+        return "You are " + description + ".\n" + getExitString() + "\n " + items.getItemsNames();
     }
-    
-
     
     /**
      * Ex 8.11

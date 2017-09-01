@@ -27,10 +27,11 @@ public class Player
     }
 
     /**
+     * EXCEPTION OCCURS ON LINE 33
  	 * Gets player info
  	 */
 	 public String getStatus(){
-		String playerInfo = currentRoom.getLongDescription();
+		String playerInfo = "";//currentRoom.getLongDescription();
 		playerInfo = playerInfo + "\n " + viewInventory();
 		return playerInfo;
 	 }
