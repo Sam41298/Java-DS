@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Person
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Person\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=fullName\ studentID
+comment1.target=Person(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Create\ a\ new\ Person\ with\ a\ given\ name\ and\ ID\ number.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ Return\ the\ full\ name\ of\ this\ Person.\r\n
+comment3.params=replacementName
+comment3.target=void\ changeName(java.lang.String)
+comment3.text=\r\n\ Set\ a\ new\ name\ for\ this\ Person.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getStudentID()
+comment4.text=\r\n\ Return\ the\ student\ ID\ of\ this\ student.\r\n
+comment5.params=
+comment5.target=java.lang.String\ getLoginName()
+comment5.text=\r\n\ Return\ the\ login\ name\ of\ this\ Person.\ The\ login\ name\ is\ a\ combination\r\n\ of\ the\ first\ four\ characters\ of\ the\ Person's\ name\ and\ the\ first\ three\r\n\ characters\ of\ the\ Person's\ ID\ number.\r\n
+comment6.params=
+comment6.target=void\ print()
+comment6.text=\r\n\ Print\ the\ Person's\ name\ and\ ID\ number\ to\ the\ output\ terminal.\r\n
+numComments=7
