@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Items
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Items\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Items()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Items\r\n
+comment2.params=name\ value
+comment2.target=void\ addItem(java.lang.String,\ Item)
+comment2.text=\r\n\ Put\ the\ given\ item\ in\ the\ list.\r\n\ @param\ name\ The\ name\ of\ the\ item.\r\n\ @param\ value\ The\ item.\r\n
+comment3.params=name
+comment3.target=Item\ findItem(java.lang.String)
+comment3.text=\r\n\ Searches\ for\ item\ with\ a\ cetian\ name\r\n
+comment4.params=name
+comment4.target=Item\ removeItem(java.lang.String)
+comment4.text=\r\n\ Remove\ the\ given\ item.\r\n
+comment5.params=
+comment5.target=java.lang.String\ getItemsNames()
+comment5.text=\r\n\ Ex\ 8.33\r\n\ gets\ all\ item\ names\ \r\n
+comment6.params=
+comment6.target=java.lang.String\ getItemsDescriptions()
+comment6.text=\r\n\ Ex\ 8.33\ (formerly\ 8.22)\r\n\ gets\ all\ item\ descriptions\ \r\n
+comment7.params=
+comment7.target=int\ getTotalWeight()
+comment7.text=\r\n\ Return\ the\ total\ weight\ of\ all\ items\ in\ the\ list.\r\n\ @return\ The\ total\ weight\r\n
+numComments=8
