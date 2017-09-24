@@ -94,9 +94,7 @@ public class Player
   	public Item eat(String itemName)
     {
         if(itemName.equals("buffout")) {
-            //First see if we have a cookie in our inventory
             Item buffout = inventory.findItem(itemName);
-            //Then check if there is a cookie in the room
             if(buffout == null) { 
                 buffout = currentRoom.removeItem(itemName);
             }
