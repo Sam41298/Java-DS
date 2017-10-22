@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=PopulationGenerator
+comment0.text=\r\n\ built\ by\ cutting\ and\ pasting\ sections\ of\ Simulator\ that\ dealt\ \r\n\ with\ population\ generation\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=view
+comment1.target=PopulationGenerator(SimulatorView)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ PopulationGenerator\r\n
+comment2.params=field\ animals
+comment2.target=void\ populate(Field,\ java.util.List)
+comment2.text=\r\n\ Randomly\ populate\ the\ field\ with\ foxes\ and\ rabbits\ and\ cougar.\r\n
+numComments=3

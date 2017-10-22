@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Animal
+comment0.text=\r\n\ Abstract\ class\ Animal\ -\ write\ a\ description\ of\ the\ class\ here\r\n\r\n\ @author\ (your\ name\ here)\r\n\ @version\ (version\ number\ or\ date\ here)\r\n
+comment1.params=location\ field
+comment1.target=Animal(Location,\ Field)
+comment1.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
+comment2.params=
+comment2.target=boolean\ isAlive()
+comment2.text=\r\n\ Sees\ if\ animal\ is\ alive\r\n
+comment3.params=
+comment3.target=Location\ getLocation()
+comment3.text=\r\n\ Return\ the\ Animal's\ location.\r\n\ @return\ The\ Animal's\ location.\r\n
+comment4.params=
+comment4.target=Field\ getField()
+comment4.text=\r\n\ Returns\ the\ animals\ field\r\n
+comment5.params=newLocation
+comment5.target=void\ setLocation(Location)
+comment5.text=\r\n\ sets\ tje\ Animal's\ location\r\n
+comment6.params=
+comment6.target=void\ setDead()
+comment6.text=\r\n\ Indicate\ that\ the\ Animal\ is\ no\ longer\ alive.\r\n\ It\ is\ removed\ from\ the\ field.\r\n
+comment7.params=newAnimals
+comment7.target=void\ act(java.util.List)
+comment7.text=\r\n\ Causes\ animal\ to\ behave\ as\ inteded\r\n
+numComments=8
